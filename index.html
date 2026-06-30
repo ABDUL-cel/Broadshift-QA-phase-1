@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>wedsite indeed</title>
+    <title>Selenium Test Form</title>
   </head>
   <body>
     <form id="myform">
@@ -11,11 +11,12 @@
       <button type="submit">Submit</button>
     </form>
     <h1 id="result" style="display: none;">Received!</h1>
-      <script> 
-     const form = document.getelEmentById('myform').addEventListener('submit', function(event) {
+    
+    <script> 
+      document.getElementById('myform').addEventListener('submit', function(event) { 
         event.preventDefault(); 
-      document.getelEmentById('result').style.display = 'block';
+        document.getElementById('result').style.display = 'block';
       });
-      </script>
+    </script>
   </body>
-  </html>
+</html>

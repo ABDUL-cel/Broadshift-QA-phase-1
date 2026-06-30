@@ -9,7 +9,7 @@ try:
     driver = webdriver.Firefox()
     driver.maximize_window()
 
-    file_path = os.path.abspath("practise.html")
+    file_path = os.path.abspath("from.html")
     driver.get(f"file:///{file_path}")
     time.sleep(2)
 

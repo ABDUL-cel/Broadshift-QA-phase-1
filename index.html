@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>wedsite indeed</title>
+  </head>
   <body>
     <form id="myform">
       <input name="my-text" required>
@@ -8,8 +12,8 @@
     </form>
     <h1 id="result" style="display: none;">Received!</h1>
       <script> 
-      document.getelEmentById('myform').addEventListener('submit', function(e) {
-        e.preventDefault(); 
+     const form = document.getelEmentById('myform').addEventListener('submit', function(event) {
+        event.preventDefault(); 
       document.getelEmentById('result').style.display = 'block';
       });
       </script>

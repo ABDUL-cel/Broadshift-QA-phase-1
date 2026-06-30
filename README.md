@@ -14,7 +14,7 @@ This project demonstrates how to automate a simple HTML form using **Python** an
 
 ```
 .
-├── form.html      # HTML form used for testing
+├── index.html      # HTML form used for testing
 ├── test.py        # Selenium automation script
 └── README.md      # Project documentation
 ```
@@ -24,7 +24,7 @@ This project demonstrates how to automate a simple HTML form using **Python** an
 Before running the project, make sure you have:
 
 * Python 3.x installed
-* Mozilla Firefox installed
+* Mozilla Chrome installed
 * Selenium installed
 
 Install Selenium using:
@@ -76,7 +76,7 @@ if the test passes.
 
 * Python
 * Selenium WebDriver
-* Mozilla Firefox
+* Mozilla Chrome 
 
 ## Learning Objectives
 

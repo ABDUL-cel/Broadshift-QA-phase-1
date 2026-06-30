@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <form>
-      <input name="my text">
-      <input name="my-password" type="password">
-      <botton>Submit</botton>
+    <form id="myform">
+      <input name="my-text" required>
+      <input name="my-password" type="password" required>
+      <button type="submit">Submit</button>
     </form>
-    <hi>Received!</h1>
+    <h1 id="result" style="display: none;">Received!</h1>
+      <script> 
+      document.getelEmentById('myform').addEventListener('submit', function(e) {
+        e.preventDefault(); 
+      document.getelEmentById('result').style.display = 'block';
+      });
+      </script>
   </body>
   </html>

@@ -6,7 +6,7 @@ import os
 driver = None
 
 try:
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     driver.maximize_window()
 
     file_path = os.path.abspath("from.html")

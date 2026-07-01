@@ -26,7 +26,7 @@ try:
 
     success_message = driver.find_element(By.TAG_NAME, "h1").text
 
-    assert success_message == "traind!"
+    assert success_message == "Received!"
     print("[PASS] TEST PASSED: Form submitted successfully")
 
 except Exception as e:

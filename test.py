@@ -9,7 +9,7 @@ try:
     driver = webdriver.Chrome()
     driver.maximize_window()
 
-    file_path = os.path.abspath("from.html")
+    file_path = os.path.abspath("index.html")
     driver.get(f"file:///{file_path}")
     time.sleep(2)
 
